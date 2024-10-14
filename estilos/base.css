@@ -1,0 +1,4 @@
+/*código extraido de Google Fonts para cambiar el estilo de letra en todo nuestro documento*/
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Sketch&display=swap');
+/*con este comando llamamos a la carpeta font-awesome*/
+@import url("font-awesome/css/fontawesome-all.css");

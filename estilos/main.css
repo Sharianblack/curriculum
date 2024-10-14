@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Sketch&display=swap');
+html {
+    font-size: 10px;
+}
+
+/*Voy a usar mediasquery para hacer adaptable la letra a un dispositivo diferente*/
+@media screen and(wax-width:400px) {
+    html {
+        font-size: 9.4117444444444444px;
+    }
+}
+/*Usamos las medidas con las que se debe utilizar el fuente de letra que sacamos de google fonds*/
+body {
+    background: #000000;
+    font-family: "Londrina Sketch", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(255, 255, 255);
+    /*Margin es para margenes externos*/
+    margin: 0;
+    /*Padin es para margenes internos*/
+    padding: 0;
+}
+
+/*links y la eriqueta transition es para transiciones*/
+a {
+    color: rgb(255, 255, 255);
+    transition: all 0.3s ease-in-out;
+}
+
+a:hover,
+a:focus,
+a:active {
+    color: #9eb905;
+}
+
+/*focus = brillo*/
+/*active lo activa xd*/
+/*funcion = hover*/
+a:hover,
+a:active{
+    outline: 5;
+}
+/*Tipo de letra que se usa en los hx*/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+    font-family: "Londrina Sketch", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #004855;
+}
+
+h1,
+.h1,
+h2,
+.h2,
+h3,
+.h3,
+h4 {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+
+}
+
+@media screen and (max-width:600px) {
+    h1,
+    .h1,
+    h2,
+    .h2,
+    h3,
+    .h3,
+    h4 {margin-top: 6rem;
+    }
+}
